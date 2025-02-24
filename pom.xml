@@ -22,7 +22,7 @@
         <mvn.version>3.0.0</mvn.version>
 
         <com.fasterxml.jackson.version>2.17.2</com.fasterxml.jackson.version>
-        <junit.version>5.12.0</junit.version>
+        <junit-jupiter.version>5.12.0</junit-jupiter.version>
         <hamcrest.version>3.0</hamcrest.version>
         <wicket.version>10.4.0</wicket.version>
         <jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
@@ -56,6 +56,18 @@
         <system>GitHub</system>
         <url>https://github.com/l0rdn1kk0n/wicket-jquery-selectors/issues</url>
     </issueManagement>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${junit-jupiter.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -94,13 +106,13 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit.version}</version>
+            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.version}</version>
+            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
