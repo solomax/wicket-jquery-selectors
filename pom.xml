@@ -12,6 +12,7 @@
     <artifactId>jquery-selectors</artifactId>
     <version>4.0.11-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <name>Wicket JQuery Selectors</name>
 
     <properties>
         <javadoc.disabled>false</javadoc.disabled>
