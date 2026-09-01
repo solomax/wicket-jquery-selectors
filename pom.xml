@@ -22,7 +22,7 @@
         <mvn.build.java.version>${java.version}</mvn.build.java.version>
         <mvn.version>3.0.0</mvn.version>
 
-        <com.fasterxml.jackson.version>2.17.2</com.fasterxml.jackson.version>
+        <com.fasterxml.jackson.version>2.22.0</com.fasterxml.jackson.version>
         <junit-jupiter.version>6.0.1</junit-jupiter.version>
         <hamcrest.version>3.0</hamcrest.version>
         <wicket.version>10.8.0</wicket.version>
