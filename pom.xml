@@ -10,7 +10,7 @@
 
     <groupId>de.agilecoders.wicket</groupId>
     <artifactId>jquery-selectors</artifactId>
-    <version>4.0.15-SNAPSHOT</version>
+    <version>4.0.16-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Wicket JQuery Selectors</name>
 
@@ -23,19 +23,19 @@
         <mvn.version>3.0.0</mvn.version>
 
         <jackson.version>3.2.2</jackson.version>
-        <junit-jupiter.version>6.0.1</junit-jupiter.version>
+        <junit-jupiter.version>6.0.3</junit-jupiter.version>
         <hamcrest.version>3.0</hamcrest.version>
-        <wicket.version>10.8.0</wicket.version>
+        <wicket.version>10.11.0</wicket.version>
         <jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
-        <logback.version>1.5.22</logback.version>
+        <logback.version>1.5.32</logback.version>
 
         <maven-bundle-plugin.version>5.1.9</maven-bundle-plugin.version>
-        <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
         <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
-        <versions-maven-plugin.version>2.20.1</versions-maven-plugin.version>
+        <versions-maven-plugin.version>2.21.0</versions-maven-plugin.version>
         <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
         <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
-        <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
     </properties>
 
     <developers>
@@ -205,7 +205,7 @@
             <plugin>
               <groupId>org.sonatype.central</groupId>
               <artifactId>central-publishing-maven-plugin</artifactId>
-              <version>0.9.0</version>
+              <version>0.10.0</version>
               <extensions>true</extensions>
               <configuration>
                 <publishingServerId>central</publishingServerId>
